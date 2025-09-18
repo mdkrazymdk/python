@@ -1,4 +1,4 @@
-# 📄 README: Project Guidelines and Tasks
+# Project Guidelines and Tasks
 
 This document outlines the tasks and structure for a Python project. It's divided into three main sections: **Basic Exercises**, **Project & Module Work**, and **Practical Git Workflow**. Use the table of contents below to jump to different sections.
 
