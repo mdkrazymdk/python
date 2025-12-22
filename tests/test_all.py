@@ -5,8 +5,6 @@ import io
 import sys
 
 class TestStringUtils(unittest.TestCase):
-    # ... (Код для тестов, как мы обсуждали ранее)
-    # Убедитесь, что импорт написан как from src.string_utils ...
     def test_print_string(self):
         captured_output = io.StringIO()
         sys.stdout = captured_output
@@ -21,7 +19,6 @@ class TestStringUtils(unittest.TestCase):
         self.assertEqual(captured_output.getvalue(), "Помилка: аргумент має бути рядком (str).\n")
 
 class TestGenerator(unittest.TestCase):
-    # ... (Код для тестов)
     def test_even_odd_generator(self):
         gen = even_odd_generator()
         self.assertEqual(next(gen), "Парне")
